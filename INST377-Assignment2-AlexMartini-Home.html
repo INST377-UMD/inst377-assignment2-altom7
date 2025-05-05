@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Local Assistant</title>
+  <link rel="stylesheet" href="INST377-Assignment2-AlexMartini.css">
+</head>
+<body>
+
+  <nav>
+    <a href="INST377-Assignment2-AlexMartini-Home.html">Home</a>
+    <a href="INST377-Assignment2-AlexMartini-Stocks.html">Stocks</a>
+    <a href="INST377-Assignment2-AlexMartini-Dogs.html">Dogs</a>
+  </nav>
+
+ 
+  <h1>INST377 - Activities</h1>
+
+  
+  <div class="button-container">
+    <button id="stocks-button">Stocks</button>
+    <button id="dogs-button">Dogs</button>
+  </div>
+
+ 
+  <div id="quote-box">
+    <h2>Quote of the Page Load:</h2>
+    <p id="quote-text">Loading...</p>
+  </div>
+
+  
+  <div id="audio-box">
+    <h3>In this web page there are options to Navigate using Audio!</h3>
+    <ul>
+      <p> Ensure your Mic is enabled to be able to use this feature</p>
+      <li>Say Navigate to a Different Page"</li>
+      <li>Say “Change the Page Color” → Changes background</li>
+      <li>Say Hello Back to you! → Say Hello</li>
+    </ul>
+    <button onclick="annyang.start()">Start Listening</button>
+    <button onclick="annyang.abort()">Stop Listening</button>
+  </div>
+
+  <script src="annyang.min.js"></script>
+  <script src="INST377-Assignment2-AlexMartini.js"></script>
+</body>
+</html>
