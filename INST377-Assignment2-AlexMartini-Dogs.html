@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dogs - Local Assistant</title>
+  <link rel="stylesheet" href="INST377-Assignment2-AlexMartini.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+ 
+  <nav>
+    <a href="INST377-Assignment2-AlexMartini-Home.html">Home</a>
+    <a href="INST377-Assignment2-AlexMartini-Stocks.html">Stocks</a>
+    <a href="INST377-Assignment2-AlexMartini-Dogs.html">Dogs</a>
+  </nav>
+
+  <h1>INST377 - Doggos </h1>
+  <h2>Doggos</h2>
+
+  
+  <div id="dog-carousel" class="carousel-container">
+   
+  </div>
+
+  <h2>Select a Breed</h2>
+  <div id="breed-buttons">
+   
+  </div>
+
+  
+  <div id="breed-info" class="info-box">
+    
+  </div>
+
+  
+  <div id="audio-box">
+    <h3>In this web page there options to Navigate using Audio!</h3>
+    <ul>
+      <p> Ensure your Mic is enabled to be able to use this feature</p>  
+      <li>Say “Load dog breed” Say Dog Breed Name</li>
+      <li>Say “Navigate to Different Page” → Say: Navigate to <page></li>
+      <li>Say “Change the color to green” → Change background</li>
+      <li>Say Hello Back to you! Say Hello</li>
+    </ul>
+    <button onclick="annyang.start()">Start Listening</button>
+    <button onclick="annyang.abort()">Stop Listening</button>
+  </div>
+
+  <script src="annyang.min.js"></script>
+  <script src="INST377-Assignment2-AlexMartini.js"></script>
+</body>
+</html>
